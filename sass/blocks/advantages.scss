@@ -1,0 +1,68 @@
+.advantages {
+  min-height: 820px;
+}
+
+.advantages__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.advantages__title {
+  @include title;
+}
+
+.advantages__text {
+  font-family: "Helvetica",serif;
+  line-height: 1.7;
+}
+
+.advantages__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages__item {
+  width: 380px;
+  height: 220px;
+  list-style: none;
+}
+
+.advantages__item--one {
+  background: url(../img/icon-monitor.png) no-repeat 0 0;
+  background-position: center 70px;
+}
+
+.advantages__item--two {
+  background: url(../img/icon-darts.png) no-repeat 0 0;
+  background-position: center 70px;
+}
+
+.advantages__item--three {
+  background: url(../img/icon-mountains.png) no-repeat 0 0;
+  background-position: center 70px;
+}
+
+.advantages__item--four {
+  background: url(../img/icon-paints.png) no-repeat 0 0;
+  background-position: center 70px;
+}
+
+.advantages__item--five {
+  background: url(../img/icon-person.png) no-repeat 0 0;
+  background-position: center 70px;
+}
+
+.advantages__item--six {
+  background: url(../img/icon-mechanic.png) no-repeat 0 0;
+  background-position: center 70px;
+}
+
+.advantages__item {
+  padding-top: 110px;
+}
+
+.advantages__descr {
+  width: 300px;
+  margin: 0 auto;
+}

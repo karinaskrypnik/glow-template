@@ -1,0 +1,58 @@
+.video__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.features__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.features {
+  position: relative;
+  min-height: 495px;
+}
+
+.features__title {
+  @include title;
+}
+
+.features__list {
+  margin-left: 45px;
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features__item {
+  width: 400px;
+  list-style: none;
+  margin: 30px 0px;
+}
+
+.features__item:nth-child(4) {
+  margin-left: 315px;
+}
+
+.features__text {
+  width: 340px;
+  font-family: "Helvetica",serif;
+  line-height: 1.7;
+}
+
+.features__list:after {
+  content:"";
+  background: url(../img/iphone-screen.png) no-repeat 0 0;
+  width: 434px;
+  height: 735px;
+  position: absolute;
+  top: -390px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}

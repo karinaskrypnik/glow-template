@@ -1,0 +1,34 @@
+.video-presentation {
+  min-height: 425px;
+  display: flex;
+  background-color: $section-bgcolor;
+}
+
+.intro {
+  width: 540px;
+  margin-top: 57px;
+}
+
+.intro__title {
+  margin-top:0;
+  @include title;
+}
+
+.intro__text {
+  font-family: "Helvetica",serif;
+  line-height: 1.7;
+}
+
+.video-presentation__player {
+    background: url(../img/video-poster.jpg) no-repeat 0 0;
+    width: 500px;
+    height: 310px;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.video-presentation:after {
+  content:"";
+  display: table;
+  clear: both;
+}

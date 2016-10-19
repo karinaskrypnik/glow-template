@@ -1,0 +1,36 @@
+.header {
+  background: url(../img/top-background.jpg) no-repeat 0 0;
+  background-position: center;
+  min-height: 700px;
+  position: relative;
+}
+
+.header__logo {
+  background: url(../img/logo.png) no-repeat 0 0;
+  height: 100px;
+  width: 145px;
+  position: absolute;
+  top: 105px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.header__icons {
+  width: 160px;
+  position: absolute;
+  top: 225px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.icon__item {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.icon__item:hover {
+  fill: $text-color;
+}
+
