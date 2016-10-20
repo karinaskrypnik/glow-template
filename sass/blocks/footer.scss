@@ -1,0 +1,27 @@
+.footer {
+  min-height: 125px;
+  background-color: $section-bgcolor;
+}
+
+.footer__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer__list {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__item {
+  margin-right: 40px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: $text-color;
+}

@@ -1,0 +1,93 @@
+.prices {
+  min-height: 580px;
+  background-color: $section-bgcolor;
+}
+
+.prices__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.prices__title {
+  @include title;
+  padding-top: 50px;
+}
+
+.option {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  top: 208px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.option__item {
+  width: 280px;
+  min-height: 420px;
+  float: left;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.option__item--deluxe {
+  margin-top: -20px;
+}
+
+.option__title {
+  min-height: 56px;
+  margin: 0;
+  background-color: $prices-bg;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.option__price {
+  margin-left: 10px;
+  font-size: 42px;
+  color: $prices-bg;
+}
+
+.option__list {
+  padding: 0;
+}
+
+.option__feature {
+  width: 250px;
+  margin-left: 15px;
+  padding-top: 10px;
+  min-height: 35px;
+  list-style: none;
+  border-top: 1px solid #c2c2c2;
+}
+
+.option__purchase {
+  min-height: 56px;
+  background-color: $prices-bg;
+}
+
+.option__link {
+  padding: 7px 25px;
+  vertical-align: -17px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #514d4d;
+}
+
+.option__item:hover .option__title {
+  background-color: #e74c3c;
+}
+
+.option__item:hover .option__purchase {
+   background-color: #e74c3c;
+}
+
+.option__item:hover a {
+  background-color: #f27a6d;
+}

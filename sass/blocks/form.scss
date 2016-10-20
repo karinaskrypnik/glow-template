@@ -1,0 +1,27 @@
+.form {
+  width: 540px;
+  margin: 0 auto;
+}
+
+.form__input {
+  width: 350px;
+  min-height: 70px;
+  padding-left: 30px;
+  background-color: #000;
+  opacity: 0.5;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+}
+
+.form__submit {
+  width: 140px;
+  min-height: 73px;
+  padding: 0;
+  border: none;
+  background-color: #f27a6d;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
